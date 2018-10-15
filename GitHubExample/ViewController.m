@@ -36,4 +36,7 @@
     int a=109,b=120;
     NSLog(@"total Sum Of Numbers Is %d ",a*b);
 }
+-(void)sumOfTwoStr{
+    NSLog(@"Name is %@",[NSString stringWithFormat:@"%@%@",@"Naresh",@"Cherukuri"]);
+}
 @end
