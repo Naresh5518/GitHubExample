@@ -43,4 +43,7 @@
 -(void)sumOfTwoStr{
     NSLog(@"Name is %@",[NSString stringWithFormat:@"%@%@",@"Naresh",@"Cherukuri"]);
 }
+-(void)checkForSubBranch{
+    NSLog(@"sub branch created");
+}
 @end
