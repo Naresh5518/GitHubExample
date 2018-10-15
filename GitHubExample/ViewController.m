@@ -19,10 +19,15 @@
     // Do any additional setup after loading the view, typically from a nib.
     //call printSumOfNo
     [self printSumOfNumbers];
+    [self multOfNumbers];
 }
 
 -(void)printSumOfNumbers{
     int a=109,b=120;
     NSLog(@"total Sum Of Numbers Is %d ",a+b);
+}
+-(void)multOfNumbers{
+    int a=109,b=120;
+    NSLog(@"total Sum Of Numbers Is %d ",a*b);
 }
 @end
