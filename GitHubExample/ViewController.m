@@ -34,7 +34,11 @@
 
 -(void)multOfNumbers{
     int a=109,b=120;
-    NSLog(@"total Sum Of Numbers Is %d ",a*b);
+    NSLog(@"total multiple Of Numbers Is %d ",a*b);
+}
+-(void)subtractionOfNumbers{
+    int a=100,b=20;
+    NSLog(@"subtraction Is %d ",a-b);
 }
 -(void)sumOfTwoStr{
     NSLog(@"Name is %@",[NSString stringWithFormat:@"%@%@",@"Naresh",@"Cherukuri"]);
